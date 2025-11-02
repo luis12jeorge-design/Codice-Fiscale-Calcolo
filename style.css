@@ -1,0 +1,175 @@
+/* ===============================
+   GLOBAL STYLES
+=================================*/
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f5f7fa;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ===============================
+   HEADER SECTION
+=================================*/
+header {
+  background: linear-gradient(135deg, #1b263b, #2a4365);
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+  color: #00ffcc;
+}
+
+header p {
+  font-size: 1.1em;
+  max-width: 800px;
+  margin: 10px auto 20px;
+}
+
+header img {
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Dark mode toggle button */
+#darkModeToggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #00ffcc;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#darkModeToggle:hover {
+  background: #00d4b2;
+}
+
+/* ===============================
+   MAIN CONTENT
+=================================*/
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #1b263b;
+  margin-top: 40px;
+}
+
+h3 {
+  color: #3a506b;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 6px 0;
+}
+
+a {
+  color: #0077b6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #00ffcc;
+}
+
+/* ===============================
+   FOOTER
+=================================*/
+footer {
+  background: #1b263b;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #00ffcc;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+/* ===============================
+   BACK TO TOP BUTTON
+=================================*/
+#backToTop {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #00ffcc;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+#backToTop:hover {
+  background-color: #00d4b2;
+}
+
+/* ===============================
+   DARK MODE STYLES
+=================================*/
+body.dark {
+  background: #0d1117;
+  color: #e5e5e5;
+}
+
+body.dark main {
+  background: #161b22;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+body.dark a {
+  color: #58a6ff;
+}
+
+body.dark header {
+  background: linear-gradient(135deg, #0d1b2a, #1b263b);
+}
+
+body.dark footer {
+  background: #0d1b2a;
+}
